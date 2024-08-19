@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dados-ana"
+version = "0.1.0"
+description = ""
+authors = ["Felipe Sodré <felipe.b4rros@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dados_ana"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
